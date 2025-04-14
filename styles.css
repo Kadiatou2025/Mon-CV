@@ -1,0 +1,387 @@
+:root{
+   --bgcolor:#FF7900;
+}
+
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+
+body{
+   background-color:aliceblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ 
+}
+.texte{
+   color: white;
+   text-align: center;
+   animation: monAnimation ease-in 2s;
+}
+button{
+   border-radius: 10px;
+   background-color: var(--bgcolor);
+   color: white;
+   width: 220px;
+   height: 50px;
+   margin: auto;
+   display: block;
+   border: none;
+   font-size: 20px;
+}
+button:hover{
+   box-shadow: 0,4PX,2PX,rgba(0, 0, 0, 0.2);
+   transform: scale(1.1);
+}
+.imag{
+   width: 300px;
+   height: 600px;
+   margin-bottom: 10px;
+}
+img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+@keyframes monAnimation{
+   from{
+       opacity: 0;
+   }
+   to{
+       opacity: 1;
+   }
+}
+.cv{
+   display: flex;
+   width: 100%;
+   max-width: 595px;
+   aspect-ratio: 595/842;
+   margin: auto;
+   background-color: white;
+   justify-content: space-between;
+   
+}
+.profil{
+   position: relative;
+   width: 50%;
+   height: 100%;
+   background-color: black;
+   border: none;
+}
+.triangle{
+   width: 0;
+   height: 0;
+   border-left: 149px solid var(--bgcolor);
+   border-top: 100PX solid var(--bgcolor);
+   border-right: 149px solid transparent;
+   border-bottom: 81px solid transparent;
+   position: absolute;
+   left: 0;
+   top: 0;
+   z-index: 2;
+}
+
+
+.image{
+   width: 104px;
+                   height: 100%;
+                   object-fit: cover;
+                   margin-left: 16PX;
+}
+
+@media (max-width: 480px) {
+   .triangle {
+      border-left: 31VW solid var(--bgcolor);
+        border-top: 16vw solid var(--bgcolor);
+        border-right: 19vw solid transparent;
+        border-bottom: 25vw solid transparent;
+   }
+
+
+
+
+
+}
+
+
+.triangle2{
+   width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-top: 50PX solid transparent;
+    border-right: 50px solid var(--bgcolor);
+    border-bottom: 50px solid var(--bgcolor);
+    position: absolute;
+    left: 172px;
+    bottom: 0;
+   
+}
+
+.photo{
+   position: absolute;
+    z-index: 3;
+    width: 150px;
+    height: 150PX;
+    background-color: white;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    left: -100PX;
+    top: -96PX;
+    overflow: hidden;
+    border: 3PX solid white;
+}
+
+
+
+
+
+
+
+
+
+.texte1{
+
+   color: white;font-size: 15px; margin-top: 0px;margin-left: 1px;width: 253px;
+                        height: 105px;
+}
+
+
+.vale{
+   display: flex
+;
+    width: 205px;
+    height: 91px;
+}
+
+.sousbasepolice{
+   color: white;font-size: 15px; margin-top: 6px;margin-left: 15px;
+}
+
+.contactpolice{
+   color: white;font-size: 18px;font-weight: bold; margin-left: 15PX;margin-top: 6px;
+}
+
+.ligneverticale{
+   position: absolute;
+   z-index: 1;
+   width: 2px;
+   height: 100%;
+   background-color: #4D4D4D;
+   left: 49PX;
+   top: 0;
+}
+
+.trait{
+   top: 209px;
+    width: 231px;
+    /* height: 3px; */
+    left: 11PX;
+    display: flex
+;
+    position: relative;
+    background-color: white;
+    /* bottom: 64PX; */
+    margin-bottom: 48px;
+    border-top: 1.3px dashed;
+    margin-top: 0px;
+   
+}
+.A{
+   position: relative;
+   top: 172px;
+  z-index: O;
+   width: 255px;
+   height: 145px;
+   left: -3PX;
+   display: flex
+;
+   flex-direction: column;
+   gap: 16px;
+  
+}
+
+
+.niveau{
+   display: flex;
+   width: 60px;
+   background-color: rebeccapurple;
+}
+
+
+
+
+
+.base1{
+   display: flex;
+       width: 253px;
+       height: 42px;
+      
+       justify-content: space-between;
+}
+
+
+.vale1{
+   display: flex
+;
+    width: 205px;
+    height: 35px;
+}
+
+.rectangle{
+   width: 10px;
+   height: 43px;
+   border-radius: 5px;
+   background-color:var(--bgcolor);
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+.contact{
+   display: flex;
+   width: 230PX;
+   height: 50PX;
+   margin: 6PX;
+ 
+}
+.icone{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+ 
+}
+
+
+
+
+.val{
+   display: flex;
+   width: 230PX;
+}
+
+
+
+
+.icone1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+ 
+}
+
+
+
+
+.sous-base1{
+   display: flex
+;
+   width: 253px;
+   height: 29px;
+  justify-content: space-between;
+  margin-left: -2px;
+}
+
+.sous-base2{
+   display: flex
+   ;
+      width: 230px;
+      height: 130px;
+     justify-content: space-between;
+     margin-left: -2px;
+    
+}
+
+
+
+.cercle{
+   background-color: var(--bgcolor);
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+}
+
+
+
+
+.B{
+   position: relative;
+   top: 172px;
+   z-index: O;
+   width: 250px;
+   height:256px;
+   left: -3PX;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+  
+}
+.nom{
+   display: flex
+;
+    position: relative;
+
+    margin-left: 35px;
+    font-size: 25px;
+    font-weight:bold;
+   margin-top: 14px;
+    
+}
+
+.C{
+   position: relative;
+   top: 172px;
+   z-index: O;
+   width: 255px;
+   height: 173px;
+   left: -3PX;
+   display: flex
+;
+   flex-direction: column;
+   gap: 16px;
+   
+}
+
+
+.contenu{
+   width: 50%;
+   height: 100%;
+   position: relative;
+   
+}
+
+.mesboutons{
+   display: flex
+   ;
+       justify-content: space-between;
+       width: 392px;
+       margin-top: 171px;
+   
+}
+.action{
+   background-color: #136e76;
+    height: 50px;
+
+}
+
+
