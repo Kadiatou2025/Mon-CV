@@ -144,7 +144,16 @@ body{
  .ligneverticale{
    width: 3px;
     height: 100%;
-    background-color: burlywood;
+    background-color: black;
+    position: absolute;
+    left: 13%;
+    z-index: 0;
+ }
+
+ .ligneverticale1{
+   width: 3px;
+    height: 100%;
+    background-color: rgb(58, 49, 36);
     position: absolute;
     left: 13%;
     z-index: 0;
@@ -226,6 +235,7 @@ body{
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     background-color: #FF7900;
+    
  }
  
  
@@ -397,8 +407,10 @@ body{
  }
  
  .Ic {
-   width: 20px;
+   width: 19px;
    margin-left: 2px;
+   margin-top: 2px;
+   
 }
 
 .Ic1 {
